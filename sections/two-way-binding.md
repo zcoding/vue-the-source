@@ -77,7 +77,7 @@ Observer 类有两个关键成员：`this.dep` 和 `this.value` ，后者就是�
 
 先来看一张图
 
-![双向绑定原理图](../images/two-way-binding.JPG)
+![双向绑定原理图](../images/two-way-binding.jpg)
 
 这张图清晰的讲解了双向绑定的原理。Observer 的作用仅仅是把 `vm._data` 进行了 getter/setter 转化，并没有决定当 `vm._data` 发生变化时应该如何更新视图（或者进行其他的响应），也就是说“数据 -> 视图”这个方向的绑定我们只完成了一半。那么剩下的一半如何处理？
 
