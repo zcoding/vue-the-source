@@ -9,6 +9,6 @@ vue.js 源码分析
 ## 目录
 
 + [x] [双向绑定的基本原理](./sections/two-way-binding.md)
-+ [ ] 事件系统的基本原理
-+ [ ] 指令的实现方式
++ [x] [事件系统的基本原理](./sections/event-bus.md)
++ [ ] v-for 指令的实现方式
 + [ ] 一些细节
